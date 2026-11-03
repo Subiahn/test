@@ -1,0 +1,15 @@
+netscout:
+  base_url: "https://test-server.example.com"
+  auth_type: "basic"
+  verify_ssl: true
+  timeout: 30
+
+api:
+  config_applications_endpoint: "/ng1api/ncm/applications"
+  devices_endpoint: "/ng1api/ncm/devices"
+  device_interfaces_endpoint_template: "/ng1api/ncm/devices/{device_name}/interfaces"
+  data_api_endpoint: "/dbonequerydata"
+  data_tcp_other_endpoint: "/dbonequerydata"
+
+output:
+  directory: "output"
