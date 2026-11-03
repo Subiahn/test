@@ -1,0 +1,18 @@
+sites:
+  - name: site1
+    type: table
+    url: "http://10.xxx.xxx.xxx:5000/search"
+    search_param_name: search
+    verify_ssl: true
+
+    hostname_index: 2
+    ip_index: 7
+
+    require_td_align_center: true
+
+  - name: site2
+    type: input
+    url: "http://10.xxx.xxx.xxx:5002/search"
+    search_param_name: search
+    verify_ssl: true
+    require_td_align_center: true
