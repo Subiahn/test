@@ -1,0 +1,18 @@
+unique_ip_ports:
+  - ip: "192.0.2.10"
+    port: 443
+    applications:
+      - HTTPS
+  - ip: "192.0.2.10"
+    port: 9001
+    applications:
+      - TCP_OTHER
+      - MARKET_DATA_TEST
+  - ip: "192.0.2.10"
+    port: 8443
+    applications:
+      - ORDER_APP
+  - ip: "203.0.113.99"
+    port: 12345
+    applications:
+      - UNKNOWN_TEST
