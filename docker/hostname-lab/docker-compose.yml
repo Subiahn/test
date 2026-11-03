@@ -1,0 +1,7 @@
+services:
+  hostname-lab:
+    build: .
+    container_name: netscout-hostname-lab
+    ports:
+      - "5000:5000"
+      - "5002:5002"
