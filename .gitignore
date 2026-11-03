@@ -1,0 +1,11 @@
+.env.local
+config/config.test.yaml
+config/hostname_lookup.yaml
+__pycache__/
+.pytest_cache/
+output/
+results/
+validation_runs/
+vendor/
+*.pyc
+*.xlsx
